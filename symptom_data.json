@@ -1,0 +1,178 @@
+{
+  "symptom": "Abdominal pain in adults",
+  "intents": [
+   {
+      "type": "greeting",
+      "examples": ["Hello", "Hi", "Hey there"],
+      "response": "Hi! I'm your Symptom Checker Chatbot. How can I assist you with abdominal pain today?"
+    },
+    {
+      "type": "small_talk",
+      "examples": ["How are you?", "What's up?", "How's it going?"],
+      "response": "I'm doing great, thanks for asking! Ready to help with any questions about abdominal pain."
+    },
+    
+    {
+      "type": "symptom_query",
+      "examples": ["What causes abdominal pain?", "Why does my stomach hurt?"],
+      "response": "Abdominal pain in adults can be caused by various conditions, such as appendicitis, gallstones, gastritis, or irritable bowel syndrome. The cause often depends on factors like the pain's location, duration, and associated symptoms. Could you share more details, like where the pain is or how long you've had it?"
+    },
+    {
+      "type": "symptom_query",
+      "examples": ["I have lower right abdominal pain", "Pain in lower right side"],
+      "response": "Lower right abdominal pain could be related to appendicitis, especially if it's severe or accompanied by fever or nausea. Other possible causes include ovarian issues or kidney stones. I recommend seeing a doctor for a proper diagnosis, especially if the pain worsens."
+    },
+    {
+      "type": "symptom_query",
+      "examples": ["Pain is crampy located in abdomen but radiates in other parts of abdomen", "crampy pain","pain radiates to other parts of body"],
+      "response": "The reason can be Cholecystitis,Menstural pain,Abdominal aortic aneurysm,Appendicitis,Celiac disease"
+    },
+    {"type": "symptom_query", 
+    "examples": ["What causes abdominal pain?", "Why does my stomach hurt?"], 
+    "response": "Abdominal pain in adults can be caused by various conditions, such as appendicitis, gallstones, gastritis, or irritable bowel syndrome. The cause often depends on factors like the pain's location, duration, and associated symptoms. Could you share more details, like where the pain is or how long you've had it?"
+    },
+    {"type": "symptom_query", 
+    "examples": ["What could be the reason for my stomach ache?", "What are possible reasons for abdominal discomfort?"], 
+    "response": "Stomach aches in adults can be due to infections, indigestion, constipation, or more serious conditions like pancreatitis or bowel obstruction. Details like duration, location, and related symptoms help identify the cause."
+    },
+    {"type": "symptom_query", 
+    "examples": ["Why do I have sharp abdominal pain?", "What does stabbing stomach pain mean?"], 
+    "response": "Sharp abdominal pain can signal issues such as appendicitis, gallstones, kidney stones, or perforated ulcers. It’s important to seek medical attention if the pain is sudden and severe."
+    },
+    {"type": "symptom_query", 
+    "examples": ["Is abdominal pain a sign of something serious?", "Should I worry about my stomach hurting?"], 
+    "response": "Some causes of abdominal pain are mild, like gas or indigestion, while others can be serious, such as appendicitis or bowel blockage. Severity, sudden onset, and other symptoms determine urgency."
+    },
+    {"type": "symptom_query", 
+    "examples": ["What causes lower abdominal pain in adults?", "Why does my lower stomach hurt?"], 
+    "response": "Lower abdominal pain in adults can be linked to urinary tract infections, irritable bowel syndrome, diverticulitis, or reproductive system conditions. The cause depends on location, intensity, and other factors."
+    },
+    {"type": "symptom_query", "examples": ["What causes upper abdominal pain?", "Why does the top of my stomach hurt?"], "response": "Upper abdominal pain may be related to gastritis, peptic ulcers, gallbladder problems, or pancreatitis. Other factors, like diet or injury, can also contribute."},
+    {"type": "symptom_query", "examples": ["Can stress cause abdominal pain?", "Is my stomach ache because of anxiety?"], "response": "Stress and anxiety can trigger abdominal discomfort by increasing stomach acid, altering gut movement, or causing muscle tension. Persistent symptoms should be discussed with a doctor."},
+    {"type": "symptom_query", "examples": ["What should I do if I have severe abdominal pain?", "When should I go to the hospital for stomach pain?"], "response": "Seek immediate medical care if abdominal pain is severe, sudden, or accompanied by symptoms like fever, vomiting blood, difficulty breathing, or fainting."},
+    {"type": "symptom_query", "examples": ["Can abdominal pain be caused by food poisoning?", "Does food poisoning cause stomach cramps?"], "response": "Yes, food poisoning can cause abdominal pain, cramping, diarrhea, nausea, and vomiting. Symptoms usually appear within hours after eating contaminated food."},
+    {"type": "symptom_query", "examples": ["Can constipation cause abdominal pain?", "Is my stomach pain because I can’t poop?"], "response": "Constipation can cause bloating, discomfort, and abdominal pain due to trapped stool and gas. Increasing fiber and fluids can help, but persistent symptoms should be evaluated."},
+    {"type": "symptom_query", "examples": ["Can ulcers cause abdominal pain?", "What does ulcer pain feel like?"], "response": "Peptic ulcers can cause burning or gnawing abdominal pain, often worse on an empty stomach. Pain might improve temporarily after eating or taking antacids."},
+    {"type": "symptom_query", "examples": ["Why does my stomach hurt after eating?", "Is it normal to have abdominal pain after meals?"], "response": "Post-meal abdominal pain can result from indigestion, gallstones, gastritis, or food intolerances. Keeping a food diary can help identify triggers."},
+    {"type": "symptom_query", "examples": ["Can gas cause abdominal pain?", "Is my belly pain just gas?"], "response": "Yes, trapped gas can cause sharp or cramp-like abdominal pain. Movement, gentle stretching, or over-the-counter remedies can help relieve symptoms."},
+    {"type": "symptom_query", "examples": ["Can kidney stones cause stomach pain?", "Why does kidney stone pain hurt in the stomach area?"], "response": "Kidney stones can cause intense pain in the lower abdomen, back, and groin as they move through the urinary tract. Pain often comes in waves."},
+    {"type": "symptom_query", "examples": ["Can gallstones cause abdominal pain?", "What does gallbladder pain feel like?"], "response": "Gallstones can cause sudden, severe pain in the upper right abdomen, often after eating fatty foods. Pain can spread to the shoulder or back."},
+    {"type": "symptom_query", "examples": ["What other symptoms should I watch for with abdominal pain?", "Which warning signs mean stomach pain is serious?"], "response": "Watch for warning signs such as high fever, vomiting blood, persistent vomiting, swelling, yellowing of the skin, or difficulty breathing. These may require urgent medical care."},
+    {"type": "symptom_query", "examples": ["Can period cramps cause abdominal pain?", "Is my lower stomach pain from menstruation?"], "response": "Yes, menstrual cramps can cause lower abdominal pain in women, usually before and during the period. Heat therapy and gentle stretching may help."},
+    {"type": "symptom_query", "examples": ["Can hernias cause abdominal pain?", "Why does my hernia hurt?"], "response": "A hernia can cause localized pain, swelling, and discomfort, especially when lifting or straining. Seek medical advice if symptoms worsen."},
+    {"type": "symptom_query", "examples": ["Can IBS cause abdominal pain?", "Is my belly pain because of irritable bowel syndrome?"], "response": "Irritable bowel syndrome often causes crampy abdominal pain with changes in bowel habits, such as diarrhea or constipation. Stress and diet can be triggers."},
+    {"type": "symptom_query", "examples": ["Can pregnancy cause abdominal pain?", "Is stomach pain normal when pregnant?"], "response": "Mild abdominal pain can be normal during pregnancy due to stretching ligaments and hormonal changes. However, severe or persistent pain should be checked by a doctor."},
+  {
+    "type": "symptom_query",
+    "examples": ["What causes abdominal pain?", "Why does my stomach hurt?", "Reasons for abdominal discomfort?", "Possible causes of belly pain?"],
+    "response": "Abdominal pain in adults can be caused by many conditions, such as appendicitis, gallstones, gastritis, or irritable bowel syndrome. The cause often depends on the pain's location, duration, and associated symptoms. Could you describe the pain's location and how long you've had it?"
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["Is abdominal pain serious?", "Should I worry about my stomach ache?", "When is stomach pain dangerous?", "How do I know if abdominal pain is an emergency?"],
+    "response": "Abdominal pain can be mild or a sign of something serious. If the pain is sudden, severe, accompanied by fever, vomiting blood, or difficulty breathing, seek medical attention immediately."
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["What are the symptoms of abdominal pain?", "How does abdominal pain feel?", "What signs come with stomach aches?", "What are common indicators of belly pain?"],
+    "response": "Abdominal pain can feel sharp, dull, crampy, or burning. It may be accompanied by bloating, nausea, vomiting, diarrhea, or constipation. Symptoms vary based on the underlying cause."
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["Can constipation cause abdominal pain?", "Does being constipated hurt your stomach?", "Is constipation linked to belly pain?", "Why does constipation cause pain?"],
+    "response": "Yes, constipation can cause abdominal discomfort or cramping because stool buildup stretches the intestines. Increasing fiber, water, and physical activity may help."
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["Can stress cause stomach pain?", "Is anxiety linked to abdominal pain?", "Does stress upset the stomach?", "Why does my stomach hurt when I'm anxious?"],
+    "response": "Stress and anxiety can trigger abdominal pain by affecting digestion and gut sensitivity. Stress management techniques may reduce these symptoms."
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["Can food poisoning cause stomach pain?", "Does eating spoiled food cause abdominal pain?", "Symptoms of food poisoning?", "Can bad food cause belly pain?"],
+    "response": "Yes, food poisoning often causes abdominal cramps, nausea, vomiting, diarrhea, and sometimes fever. Symptoms may appear within hours of eating contaminated food."
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["What foods cause abdominal pain?", "What food triggers stomach aches?", "Can diet cause belly pain?", "Are certain foods bad for my stomach?"],
+    "response": "Some people experience abdominal pain after eating spicy foods, fatty meals, dairy products, or foods high in sugar. Triggers vary depending on individual tolerance and conditions like lactose intolerance or acid reflux."
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["What are the risk factors for abdominal pain?", "Who is more likely to get stomach pain?", "What makes people prone to abdominal pain?", "Who is at higher risk of belly pain?"],
+    "response": "Risk factors include poor diet, chronic digestive conditions, high stress, infections, and certain medications. Age and family history of digestive issues may also play a role."
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["How is abdominal pain diagnosed?", "What tests check stomach pain?", "How do doctors find the cause of abdominal pain?", "Diagnosis methods for belly pain?"],
+    "response": "Doctors diagnose abdominal pain through medical history, physical exams, and tests like blood work, ultrasound, X-ray, or endoscopy, depending on symptoms."
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["How can I prevent abdominal pain?", "Tips to avoid stomach aches?", "Prevention of belly pain?", "How do I stop getting abdominal pain?"],
+    "response": "Prevention includes eating a balanced diet, staying hydrated, avoiding trigger foods, practicing good hygiene, and managing stress."
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["Can ulcers cause abdominal pain?", "Does stomach ulcer hurt?", "Ulcer pain symptoms?", "Is ulcer linked to belly pain?"],
+    "response": "Yes, stomach ulcers can cause burning abdominal pain, often between meals or at night. They may also cause bloating, nausea, and weight loss."
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["Can gallstones cause abdominal pain?", "What are gallstone symptoms?", "Does gallbladder pain feel like stomach ache?", "Is gallbladder linked to abdominal pain?"],
+    "response": "Gallstones can cause intense pain in the upper right abdomen, often after eating fatty foods. Pain may radiate to the back or right shoulder."
+  },
+  {
+    "type": "symptom_query",
+    "examples": ["Can appendicitis cause abdominal pain?", "What does appendicitis pain feel like?", "Where is appendix pain?", "Symptoms of appendix inflammation?"],
+    "response": "Appendicitis typically starts as pain near the navel and shifts to the lower right abdomen. It may be accompanied by fever, nausea, and loss of appetite."
+  },
+  {
+    "type": "symptom_query",
+    "examples": [
+      "What causes abdominal pain?",
+      "Why does my stomach hurt?",
+      "Possible reasons for pain in my abdomen?",
+      "Causes of stomach pain in adults?"
+    ],
+    "response": "Abdominal pain in adults can be caused by various conditions, such as appendicitis, gallstones, gastritis, or irritable bowel syndrome. The cause often depends on factors like the pain's location, duration, and associated symptoms. Could you share more details, like where the pain is or how long you've had it?"
+  },
+  {
+    "type": "symptom_query",
+    "examples": [
+      "What are the serious causes of abdominal pain?",
+      "Could abdominal pain mean something dangerous?",
+      "When should I worry about stomach pain?"
+    ],
+    "response": "Some causes of abdominal pain require urgent medical attention, including appendicitis, bowel obstruction, perforated ulcer, or abdominal aortic aneurysm. Seek medical care immediately if the pain is severe, sudden, associated with fever, vomiting blood, or if your abdomen is rigid."
+  },
+  {
+    "type": "symptom_query",
+    "examples": [
+      "What symptoms usually come with abdominal pain?",
+      "What other signs should I look for with stomach pain?",
+      "What accompanies abdominal pain?"
+    ],
+    "response": "Abdominal pain may be accompanied by symptoms like bloating, nausea, vomiting, diarrhea, constipation, fever, or loss of appetite. The combination of symptoms can help narrow down possible causes."
+  },
+  {
+    "type": "symptom_query",
+    "examples": [
+      "How is the cause of abdominal pain diagnosed?",
+      "What tests will the doctor do for stomach pain?",
+      "How do you check for causes of abdominal pain?"
+    ],
+    "response": "Doctors diagnose the cause of abdominal pain through a combination of medical history, physical examination, and tests such as blood work, urine tests, ultrasound, CT scans, or endoscopy. The choice of tests depends on your symptoms and history."
+  },
+  {
+    "type": "symptom_query",
+    "examples": [
+      "What should I avoid eating with abdominal pain?",
+      "Any foods I shouldn't eat if my stomach hurts?",
+      "Diet restrictions for abdominal pain?"
+    ],
+    "response": "If you have abdominal pain, avoid foods that are greasy, spicy, or high in fat. Limiting caffeine, alcohol, and carbonated drinks may also help until you know the cause. Bland foods like rice, toast, and bananas are generally gentler on the stomach."
+  }
+  
+  ]
+}
